@@ -46,7 +46,7 @@ class QuartzGrailsPlugin extends Plugin {
 Adds Quartz job scheduling features
 '''
     def profiles = ['web']
-    List loadAfter = ['hibernate3', 'hibernate4', 'hibernate5', 'services']
+    List loadAfter = ['hibernate3', 'hibernate4', 'hibernate5', 'services', 'database-migration']
 
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/quartz"
